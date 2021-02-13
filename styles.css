@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700);
+
+body {
+    /* background-color:  */
+    background: #E5EDE8;
+    font-size: larger;
+    font-family: 'Crimson Text', sans-serif;
+    display: block;
+}
+
+header {
+    /* width: 99.5%; */
+    height: 200px;
+    /* padding: 0 10%; */
+    border: solid 2px rgba(19, 67, 71, 0.8);
+    /* box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3); */
+    /* background-color: rgba(15, 116, 40, 0.8); */
+    background-color: #3A6D6A;
+    background-image: url(Potential/y.jpg);
+    text-align: center;
+    /* background-size: cover; */
+    background-repeat: round;
+}
+
+header h1 {
+    /* vertical-align: middle; */
+}
+
+header h3 {
+    vertical-align: top;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.page-content {
+    margin: 0px 300px 0px 300px;
+    /* background-color: #7AB7E3; */
+    height: 66vh;
+}
+
+h1 {
+    color: black;
+    font-family: 'Crimson Text', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    text-shadow: -1px 0 snow, 0 1px snow, 1px 0 snow, 0 -1px snow;
+    margin: 40px 0 0 0;
+}
+
+.topnav {
+    margin-top: 5px;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#introduction-box {
+    height: 400px;
+    width: 72.5%;
+    border: 1px solid black;
+    padding: 000px;
+    display: flex;
+    /* background-color: teal; */
+    margin-top: 7px;
+    background-color: #7EB9E4;
+    color: black;
+}
+
+.introduction {
+    display: flex;
+}
+
+#introduction-text {
+    margin: 15px 35px 15px 35px;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+#profile-picture {
+    height: 404px;
+    /* width: 245px; */
+    justify-content: flex-end;
+    /* align-content: initial; */
+    margin: 8px 0px 0px 20px;
+    /* float: right; */
+}
+
+
+/* CSS for portofolio */
+
+#projects {
+    /* display: flex; */
+    height: 400px;
+    overflow: auto;
+    /* width: 72.5%; */
+    border: 1px solid black;
+    /* background-color: teal; */
+    margin-top: 7px;
+    background-color: #7EB9E4;
+    color: black;
+}
+
+#portfolio-heading {
+    padding-left: 1%;
+    /* justify-content: 'first baseline'; */
+}
+
+.portfolio-list {
+    /* justify-content: end; */
+}
+
+/* CSS for contact-me */
+.contact-form-header{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contact-form {
+    /* display: flex; */
+    /* width: 100%; */
+}
+
+.form-input {
+    width: 100%;
+    /* height: 40px; */
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact-form-button {
+    background-color: #7EB9E4;
+    height: 40px;
+    cursor: pointer;
+}
+
+.copyright-text {
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+    /* display: flex; */
+}
+
+/* 
+button:hover {
+    cursor: pointer;
+} */
